@@ -194,98 +194,182 @@ function removeAns13() {
 }
 //==================================================
 let popup3004 = document.getElementById("popup34")
+let ans14 = document.getElementById("ans14")
 function openPopup34() {
     popup3004.classList.add("open-pop34");
 }
 function closePopup34() {
     popup3004.classList.remove("open-pop34");
 }
+function displayAns14() {
+    ans14.classList.add("answer14");
+}
+function removeAns14() {
+    ans14.classList.remove("answer14");
+}
 //==================================================
 let popup3005 = document.getElementById("popup35")
+let ans15 = document.getElementById("ans15")
 function openPopup35() {
     popup3005.classList.add("open-pop35");
 }
 function closePopup35() {
     popup3005.classList.remove("open-pop35");
 }
+function displayAns15() {
+    ans15.classList.add("answer15");
+}
+function removeAns15() {
+    ans15.classList.remove("answer15");
+}
 //==================================================
 let popup4001 = document.getElementById("popup41")
+let ans16 = document.getElementById("ans16")
 function openPopup41() {
     popup4001.classList.add("open-pop41");
 }
 function closePopup41() {
     popup4001.classList.remove("open-pop41");
 }
+function displayAns16() {
+    ans16.classList.add("answer16");
+}
+function removeAns16() {
+    ans16.classList.remove("answer16");
+}
 //==================================================
 let popup4002 = document.getElementById("popup42")
+let ans17 = document.getElementById("ans17")
 function openPopup42() {
     popup4002.classList.add("open-pop42");
 }
 function closePopup42() {
     popup4002.classList.remove("open-pop42");
 }
+function displayAns17() {
+    ans17.classList.add("answer17");
+}
+function removeAns17() {
+    ans17.classList.remove("answer17");
+}
 //==================================================
 let popup4003 = document.getElementById("popup43")
+let ans18 = document.getElementById("ans18")
 function openPopup43() {
     popup4003.classList.add("open-pop43");
 }
 function closePopup43() {
     popup4003.classList.remove("open-pop43");
 }
+function displayAns18() {
+    ans18.classList.add("answer18");
+}
+function removeAns18() {
+    ans18.classList.remove("answer18");
+}
 //==================================================
 let popup4004 = document.getElementById("popup44")
+let ans19 = document.getElementById("ans19")
 function openPopup44() {
     popup4004.classList.add("open-pop44");
 }
 function closePopup44() {
     popup4004.classList.remove("open-pop44");
 }
+function displayAns19() {
+    ans19.classList.add("answer19");
+}
+function removeAns19() {
+    ans19.classList.remove("answer19");
+}
 //==================================================
 let popup4005 = document.getElementById("popup45")
+let ans20 = document.getElementById("ans20")
 function openPopup45() {
     popup4005.classList.add("open-pop45");
 }
 function closePopup45() {
     popup4005.classList.remove("open-pop45");
 }
+function displayAns20() {
+    ans20.classList.add("answer20");
+}
+function removeAns20() {
+    ans20.classList.remove("answer20");
+}
 //==================================================
 let popup5001 = document.getElementById("popup51")
+let ans21 = document.getElementById("ans21")
 function openPopup51() {
     popup5001.classList.add("open-pop51");
 }
 function closePopup51() {
     popup5001.classList.remove("open-pop51");
 }
+function displayAns21() {
+    ans21.classList.add("answer21");
+}
+function removeAns21() {
+    ans21.classList.remove("answer21");
+}
 //==================================================
 let popup5002 = document.getElementById("popup52")
+let ans22 = document.getElementById("ans22")
 function openPopup52() {
     popup5002.classList.add("open-pop52");
 }
 function closePopup52() {
     popup5002.classList.remove("open-pop52");
 }
+function displayAns22() {
+    ans22.classList.add("answer22");
+}
+function removeAns22() {
+    ans22.classList.remove("answer22");
+}
 //==================================================
 let popup5003 = document.getElementById("popup53")
+let ans23 = document.getElementById("ans23")
 function openPopup53() {
     popup5003.classList.add("open-pop53");
 }
 function closePopup53() {
     popup5003.classList.remove("open-pop53");
 }
+function displayAns23() {
+    ans23.classList.add("answer23");
+}
+function removeAns23() {
+    ans23.classList.remove("answer23");
+}
 //==================================================
 let popup5004 = document.getElementById("popup54")
+let ans24 = document.getElementById("ans24")
 function openPopup54() {
     popup5004.classList.add("open-pop54");
 }
 function closePopup54() {
     popup5004.classList.remove("open-pop54");
 }
+function displayAns24() {
+    ans24.classList.add("answer24");
+}
+function removeAns24() {
+    ans24.classList.remove("answer24");
+}
 //==================================================
 let popup5005 = document.getElementById("popup55")
+let ans25 = document.getElementById("ans25")
 function openPopup55() {
     popup5005.classList.add("open-pop55");
 }
 function closePopup55() {
     popup5005.classList.remove("open-pop55");
+}
+function displayAns25() {
+    ans25.classList.add("answer25");
+}
+function removeAns25() {
+    ans25.classList.remove("answer25");
 }
 //==================================================
