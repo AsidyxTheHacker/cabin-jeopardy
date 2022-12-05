@@ -1,5 +1,5 @@
 .body-page {
-    background: #0c0c32;
+    background: #0c0c3c;
     background-attachment: fixed;
     height: 100%;
     margin: 0px;
@@ -57,31 +57,33 @@
     font-style: italic;
     background: #121253;
     text-align: center;
+    text-decoration: underline;
     font-size: 40px;
     border: 4px solid white;
-    box-shadow: 6px 7px black;
+    box-shadow: 6px 7px rgb(29, 29, 255);
     padding:10px 20px;
 }
 
 .points {
-    font-size: 65px;
+    font-size: 70px;
     color: gold;
     border: 5px solid gold;
     box-shadow: 6px 7px rgb(29, 29, 255);
-    background: #121253;
+    background: #11115f;
     text-shadow: 2px 3px rgb(29, 29, 255);
     text-decoration: underline;
     margin: 30px 0px;
-    padding: 38px 20px;
+    padding: 37px 15px;
     cursor: pointer;
     transition: all .2s ease-in-out;
 }
 
 .points:hover {
     transform: scale(1.12);
-    text-shadow: 0px 0px 10px rgb(26, 26, 255);
+    background: #141480;
+    text-shadow: 0px 0px 10px rgb(46, 57, 255);
     box-shadow: 0px 0px 15px inset goldenrod;
-    border: solid 5px yellow;
+    border: double 5px yellow;
 }
 
 li {
@@ -145,19 +147,21 @@ li {
     background: #121253;
     color: white;
     cursor: pointer;
-    text-shadow: 0px 0px 8px black;
+    text-shadow: 0px 0px 7px black;
     font-size: 42px;
     border: 4px solid gold;
-    border-radius: 5px;
-    box-shadow: 5px 6px black;
     padding:12px;
+    text-decoration: underline;
     margin-top:275px;
+    margin-bottom: 40px;
 }
 
 .prev:hover {
+    color: greenyellow;
     border: 4px solid greenyellow;
     box-shadow: 0px 0px 10px greenyellow;
 }
+
 
 .ans {
     visibility: hidden;
@@ -166,7 +170,13 @@ li {
 .answer, .answer2, .answer3, .answer4, .answer5, .answer6, .answer7, .answer8, .answer9, .answer10, .answer11, .answer12, .answer13,
  .answer14, .answer15, .answer16, .answer17, .answer18, .answer19, .answer20, .answer21, .answer22, .answer23, .answer24, .answer25 {
     visibility: visible;
+    background: #121253;
     color:greenyellow;
+    font-size: 64px;
+    margin-bottom: 32px;
+    text-shadow: 1px 0px 12px black;
+    border: 4px solid gold;
+    padding:10px;
 }
 
 .popup button {

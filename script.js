@@ -1,5 +1,6 @@
 let popup1001 = document.getElementById("popup")
 let ans = document.getElementById("ans")
+let card = document.getElementById("card1")
 function openPopup() {
     popup1001.classList.add("open-pop");
 }
@@ -12,9 +13,13 @@ function displayAns() {
 function removeAns() {
     ans.classList.remove("answer");
 }
+function removeCard() {
+    card.classList.add("ans")
+}
 //==================================================
 let popup1002 = document.getElementById("popup2")
 let ans2 = document.getElementById("ans2")
+let card2 = document.getElementById("card2")
 function openPopup2() {
     popup1002.classList.add("open-pop2");
 }
@@ -27,9 +32,13 @@ function displayAns2() {
 function removeAns2() {
     ans2.classList.remove("answer2");
 }
+function removeCard2() {
+    card2.classList.add("ans")
+}
 //==================================================
 let popup1003 = document.getElementById("popup3")
 let ans3 = document.getElementById("ans3")
+let card3 = document.getElementById("card3")
 function openPopup3() {
     popup1003.classList.add("open-pop3");
 }
@@ -42,9 +51,13 @@ function displayAns3() {
 function removeAns3() {
     ans3.classList.remove("answer3");
 }
+function removeCard3() {
+    card3.classList.add("ans")
+}
 //==================================================
 let popup1004 = document.getElementById("popup4")
 let ans4 = document.getElementById("ans4")
+let card4 = document.getElementById("card4")
 function openPopup4() {
     popup1004.classList.add("open-pop4");
 }
@@ -57,9 +70,13 @@ function displayAns4() {
 function removeAns4() {
     ans4.classList.remove("answer4");
 }
+function removeCard4() {
+    card4.classList.add("ans")
+}
 //==================================================
 let popup1005 = document.getElementById("popup5")
 let ans5 = document.getElementById("ans5")
+let card5 = document.getElementById("card5")
 function openPopup5() {
     popup1005.classList.add("open-pop5");
 }
@@ -71,6 +88,9 @@ function displayAns5() {
 }
 function removeAns5() {
     ans5.classList.remove("answer5");
+}
+function removeCard5() {
+    card5.classList.add("ans")
 }
 //==================================================
 let popup2001 = document.getElementById("popup21")
