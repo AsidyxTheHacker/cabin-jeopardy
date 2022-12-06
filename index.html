@@ -11,7 +11,7 @@
     <header class="top-header">
     <h1>Placeholder!</h1>
     <div>
-    <p>Score: <span class="score" id="score"></span></p><button class="addpts" onclick="scoreAdd()">Add 100 pts.</button>
+    <p>Score: <span class="score" id="score">0</span></p><button class="addpts" onclick="scoreAdd()">Add 100 pts.</button><button class="subpts" onclick="scoreSub()">Sub 100 pts.</button>
     </div>
     </header>
     <div class="entire">
@@ -60,11 +60,11 @@
         </ul>
         <ul class="col">
             <li class="cat">Category 2</li>
-            <li class="points" onclick="openPopup21()">100</li>
+            <li class="points" id="card6" onclick="openPopup21()">100</li>
             <div class="popup" id="popup21">
                     <h2>100 POINT QUESTION</h2>
                     <p>i am some text</p>
-                    <p class="prev" onclick="displayAns6()">Answer</p>
+                    <p class="prev" onclick="displayAns6(), removeCard6()">Answer</p>
                     <span class="ans" id="ans6">im the answer</span>
                     <button type="button" onclick="closePopup21(), removeAns6()">close</button>
             </div>

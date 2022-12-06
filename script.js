@@ -95,6 +95,7 @@ function removeCard5() {
 //==================================================
 let popup2001 = document.getElementById("popup21")
 let ans6 = document.getElementById("ans6")
+let card6 = document.getElementById("card6")
 function openPopup21() {
     popup2001.classList.add("open-pop21");
 }
@@ -106,6 +107,9 @@ function displayAns6() {
 }
 function removeAns6() {
     ans6.classList.remove("answer6");
+}
+function removeCard6() {
+    card6.classList.add("ans")
 }
 //==================================================
 let popup2002 = document.getElementById("popup22")
@@ -396,6 +400,10 @@ function removeAns25() {
 let score = 0;
 function scoreAdd() {
     score = score+100;
+    document.getElementById("score").innerHTML = score;
+}
+function scoreSub() {
+    score = score-100;
     document.getElementById("score").innerHTML = score;
 }
 //==================================================
