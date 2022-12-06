@@ -393,3 +393,9 @@ function removeAns25() {
     ans25.classList.remove("answer25");
 }
 //==================================================
+let score = 0;
+function scoreAdd() {
+    score = score+100;
+    document.getElementById("score").innerHTML = score;
+}
+//==================================================

@@ -29,7 +29,8 @@
     font-size:40px;
     border: white solid 4px;
     padding:12px;
-    height: 100%;
+    margin-bottom:0px;
+    /* height: 100%; */
     white-space: nowrap;
 }
 
@@ -193,4 +194,19 @@ li {
 
 .popup button:hover {
     font-weight: bold;
+}
+
+.addpts {
+    font-size: 18px;
+    background: #121253;
+    font-weight: bold;
+    color:white;
+    height: 40px;
+    border:3px solid white;
+    cursor:pointer;
+    margin-bottom: 20px;
+}
+
+.addpts:hover {
+    color:greenyellow;
 }
