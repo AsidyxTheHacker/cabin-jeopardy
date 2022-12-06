@@ -114,6 +114,7 @@ function removeCard6() {
 //==================================================
 let popup2002 = document.getElementById("popup22")
 let ans7 = document.getElementById("ans7")
+let card7 = document.getElementById("card7")
 function openPopup22() {
     popup2002.classList.add("open-pop22");
 }
@@ -126,9 +127,13 @@ function displayAns7() {
 function removeAns7() {
     ans7.classList.remove("answer7");
 }
+function removeCard7() {
+    card7.classList.add("ans")
+}
 //==================================================
 let popup2003 = document.getElementById("popup23")
 let ans8 = document.getElementById("ans8")
+let card8 = document.getElementById("card8")
 function openPopup23() {
     popup2003.classList.add("open-pop23");
 }
@@ -141,9 +146,13 @@ function displayAns8() {
 function removeAns8() {
     ans8.classList.remove("answer8");
 }
+function removeCard8() {
+    card8.classList.add("ans")
+}
 //==================================================
 let popup2004 = document.getElementById("popup24")
 let ans9 = document.getElementById("ans9")
+let card9 = document.getElementById("card9")
 function openPopup24() {
     popup2004.classList.add("open-pop24");
 }
@@ -156,9 +165,13 @@ function displayAns9() {
 function removeAns9() {
     ans9.classList.remove("answer9");
 }
+function removeCard9() {
+    card9.classList.add("ans")
+}
 //==================================================
 let popup2005 = document.getElementById("popup25")
 let ans10 = document.getElementById("ans10")
+let card10 = document.getElementById("card10")
 function openPopup25() {
     popup2005.classList.add("open-pop25");
 }
@@ -170,6 +183,9 @@ function displayAns10() {
 }
 function removeAns10() {
     ans10.classList.remove("answer10");
+}
+function removeCard10() {
+    card10.classList.add("ans")
 }
 //==================================================
 let popup3001 = document.getElementById("popup31")
@@ -398,6 +414,7 @@ function removeAns25() {
 }
 //==================================================
 let score = 0;
+let score2 = 0;
 function scoreAdd() {
     score = score+100;
     document.getElementById("score").innerHTML = score;
@@ -405,5 +422,13 @@ function scoreAdd() {
 function scoreSub() {
     score = score-100;
     document.getElementById("score").innerHTML = score;
+}
+function scoreAdd2() {
+    score2 = score2+100;
+    document.getElementById("score2").innerHTML = score2;
+}
+function scoreSub2() {
+    score2 = score2-100;
+    document.getElementById("score2").innerHTML = score2;
 }
 //==================================================
