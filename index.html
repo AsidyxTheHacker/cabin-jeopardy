@@ -16,6 +16,9 @@
     <div>
     <p>Score: <span class="score" id="score2">0</span></p><button class="addpts" onclick="scoreAdd2()">Add 100 pts.</button><button class="subpts" onclick="scoreSub2()">Sub 100 pts.</button>
     </div>
+    <div>
+    <p>Score: <span class="score" id="score3">0</span></p><button class="addpts" onclick="scoreAdd3()">Add 100 pts.</button><button class="subpts" onclick="scoreSub3()">Sub 100 pts.</button>
+    </div>
     </header>
     <div class="entire">
         <ul class="col" style="padding-left: 0px;">
@@ -106,43 +109,43 @@
         </ul>
         <ul class="col">
             <li class="cat">Category 3</li>
-            <li class="points" onclick="openPopup31()">100</li>
+            <li class="points" id="card11" onclick="openPopup31()">100</li>
             <div class="popup" id="popup31">
                 <h2>100 POINT QUESTION</h2>
                 <p>i am some new text</p>
-                <p class="prev" onclick="displayAns11()">Answer</p>
+                <p class="prev" onclick="displayAns11(), removeCard11()">Answer</p>
                 <span class="ans" id="ans11">back again?</span>
                 <button type="button" onclick="closePopup31(), removeAns11()">close</button>
             </div>
-            <li class="points" onclick="openPopup32()">200</li>
+            <li class="points" id="card12" onclick="openPopup32()">200</li>
             <div class="popup" id="popup32">
                 <h2>200 POINT QUESTION</h2>
                 <p>i am some newer text</p>
-                <p class="prev" onclick="displayAns12()">Answer</p>
+                <p class="prev" onclick="displayAns12(), removeCard12()">Answer</p>
                 <span class="ans" id="ans12">meow bruh</span>
                 <button type="button" onclick="closePopup32(), removeAns12()">close</button>
             </div>
-            <li class="points" onclick="openPopup33()">300</li>
+            <li class="points" id="card13" onclick="openPopup33()">300</li>
             <div class="popup" id="popup33">
                 <h2>300 POINT QUESTION</h2>
                 <p>i am some even newer text</p>
-                <p class="prev" onclick="displayAns13()">Answer</p>
+                <p class="prev" onclick="displayAns13(), removeCard13()">Answer</p>
                 <span class="ans" id="ans13">*hits the griddy*</span>
                 <button type="button" onclick="closePopup33(), removeAns13()">close</button>
             </div>
-            <li class="points" onclick="openPopup34()">400</li>
+            <li class="points" id="card14" onclick="openPopup34()">400</li>
             <div class="popup" id="popup34">
                 <h2>400 POINT QUESTION</h2>
                 <p>dont look at me</p>
-                <p class="prev" onclick="displayAns14()">Answer</p>
+                <p class="prev" onclick="displayAns14(), removeCard14()">Answer</p>
                 <span class="ans" id="ans14">shits and farts</span>
                 <button type="button" onclick="closePopup34(), removeAns14()">close</button>
             </div>
-            <li class="points" onclick="openPopup35()">500</li>
+            <li class="points" id="card15" onclick="openPopup35()">500</li>
             <div class="popup" id="popup35">
                 <h2>500 POINT QUESTION</h2>
                 <p>i said dont look at me</p>
-                <p class="prev" onclick="displayAns15()">Answer</p>
+                <p class="prev" onclick="displayAns15(), removeCard15()">Answer</p>
                 <span class="ans" id="ans15">poops and doops</span>
                 <button type="button" onclick="closePopup35(), removeAns15()">close</button>
             </div>
