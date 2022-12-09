@@ -433,31 +433,91 @@ function removeAns25() {
     ans25.classList.remove("answer25");
 }
 //==================================================
-let score = 0;
-let score2 = 0;
-let score3 = 0;
-function scoreAdd() {
-    score = score+100;
-    document.getElementById("score").innerHTML = score;
-}
-function scoreSub() {
-    score = score-100;
-    document.getElementById("score").innerHTML = score;
-}
-function scoreAdd2() {
-    score2 = score2+100;
-    document.getElementById("score2").innerHTML = score2;
-}
-function scoreSub2() {
-    score2 = score2-100;
-    document.getElementById("score2").innerHTML = score2;
-}
-function scoreAdd3() {
-    score3 = score3+100;
-    document.getElementById("score3").innerHTML = score3;
-}
-function scoreSub3() {
-    score3 = score3-100;
-    document.getElementById("score3").innerHTML = score3;
-}
+let score1 = 0
+let score2 = 0
+let score3 = 0
+
+function scoreUpdate(scorename, pointvalue) {
+
+  switch (scorename) { //takes the score part of the function call to know what to update
+
+    case "score1": //if you want to add more scores add more cases
+
+      if (score1 < 9900 && score1 > -900) {
+        score1 = score1 + pointvalue
+        document.getElementById("score1").innerHTML = score1
+        console.log(scorename)
+        break
+        
+      }
+      else if (score1 <= -900 && pointvalue == 100) {
+        score1 = score1 + pointvalue
+        document.getElementById("score1").innerHTML = score1
+        console.log(scorename)
+        break
+      }
+      else if (score1 >= 9900 && pointvalue == -100) {
+        score1 = score1 + pointvalue
+        document.getElementById("score1").innerHTML = score1
+        console.log(scorename)
+        break
+      }
+      else { 
+        console.log('hello');
+        break
+      } //write whatever error you want to give in {}
+
+    case "score2":
+
+        if (score2 < 9900 && score2 > -900) {
+            score2 = score2 + pointvalue
+            document.getElementById("score2").innerHTML = score2
+            console.log(scorename)
+            break
+            
+          }
+          else if (score2 <= -900 && pointvalue == 100) {
+            score2 = score2 + pointvalue
+            document.getElementById("score2").innerHTML = score2
+            console.log(scorename)
+            break
+          }
+          else if (score2 >= 9900 && pointvalue == -100) {
+            score2 = score2 + pointvalue
+            document.getElementById("score2").innerHTML = score2
+            console.log(scorename)
+            break
+          }
+          else { 
+            console.log('hello');
+            break
+          }  //write whatever error you want to give in {}
+
+      case "score3":
+
+      if (score3 < 9900 && score3 > -900) {
+        score3 = score3 + pointvalue
+        document.getElementById("score3").innerHTML = score3
+        console.log(scorename)
+        break
+        
+      }
+      else if (score3 <= -900 && pointvalue == 100) {
+        score3 = score3 + pointvalue
+        document.getElementById("score3").innerHTML = score3
+        console.log(scorename)
+        break
+      }
+      else if (score3 >= 9900 && pointvalue == -100) {
+        score3 = score3 + pointvalue
+        document.getElementById("score3").innerHTML = score3
+        console.log(scorename)
+        break
+      }
+      else { 
+        console.log('hello');
+        break
+      } //write whatever error you want to give in {}
+  }
+  }
 //==================================================
