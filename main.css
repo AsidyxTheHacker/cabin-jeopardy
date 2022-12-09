@@ -1,5 +1,5 @@
 .body-page {
-    background: #141438;
+    background: #18183b;
     background-attachment: fixed;
     height: 100%;
     margin: 0px;
@@ -83,8 +83,8 @@
 
 .points:hover {
     transform: scale(1.12);
-    background: #141480;
-    text-shadow: 0px 0px 10px rgb(46, 57, 255);
+    background: #131390;
+    text-shadow: 0px 0px 10px rgb(56, 66, 255);
     box-shadow: 0px 0px 15px inset goldenrod;
     border: double 5px yellow;
 }
@@ -180,7 +180,13 @@ li {
     text-shadow: 1px 0px 12px black;
     border: 4px solid gold;
     padding:10px;
+    animation: fadeIn 1s;
 }
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 
 .popup button {
     margin-top: 10px;

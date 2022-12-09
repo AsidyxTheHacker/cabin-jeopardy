@@ -285,6 +285,7 @@ function removeCard15() {
 //==================================================
 let popup4001 = document.getElementById("popup41")
 let ans16 = document.getElementById("ans16")
+let card16 = document.getElementById("card16")
 function openPopup41() {
     popup4001.classList.add("open-pop41");
 }
@@ -297,9 +298,13 @@ function displayAns16() {
 function removeAns16() {
     ans16.classList.remove("answer16");
 }
+function removeCard16() {
+    card16.classList.add("ans")
+}
 //==================================================
 let popup4002 = document.getElementById("popup42")
 let ans17 = document.getElementById("ans17")
+let card17 = document.getElementById("card17")
 function openPopup42() {
     popup4002.classList.add("open-pop42");
 }
@@ -312,9 +317,13 @@ function displayAns17() {
 function removeAns17() {
     ans17.classList.remove("answer17");
 }
+function removeCard17() {
+    card17.classList.add("ans")
+}
 //==================================================
 let popup4003 = document.getElementById("popup43")
 let ans18 = document.getElementById("ans18")
+let card18 = document.getElementById("card18")
 function openPopup43() {
     popup4003.classList.add("open-pop43");
 }
@@ -327,9 +336,13 @@ function displayAns18() {
 function removeAns18() {
     ans18.classList.remove("answer18");
 }
+function removeCard18() {
+    card18.classList.add("ans")
+}
 //==================================================
 let popup4004 = document.getElementById("popup44")
 let ans19 = document.getElementById("ans19")
+let card19 = document.getElementById("card19")
 function openPopup44() {
     popup4004.classList.add("open-pop44");
 }
@@ -342,9 +355,13 @@ function displayAns19() {
 function removeAns19() {
     ans19.classList.remove("answer19");
 }
+function removeCard19() {
+    card19.classList.add("ans")
+}
 //==================================================
 let popup4005 = document.getElementById("popup45")
 let ans20 = document.getElementById("ans20")
+let card20 = document.getElementById("card20")
 function openPopup45() {
     popup4005.classList.add("open-pop45");
 }
@@ -357,9 +374,13 @@ function displayAns20() {
 function removeAns20() {
     ans20.classList.remove("answer20");
 }
+function removeCard20() {
+    card20.classList.add("ans")
+}
 //==================================================
 let popup5001 = document.getElementById("popup51")
 let ans21 = document.getElementById("ans21")
+let card21 = document.getElementById("card21")
 function openPopup51() {
     popup5001.classList.add("open-pop51");
 }
@@ -372,9 +393,13 @@ function displayAns21() {
 function removeAns21() {
     ans21.classList.remove("answer21");
 }
+function removeCard21() {
+    card21.classList.add("ans")
+}
 //==================================================
 let popup5002 = document.getElementById("popup52")
 let ans22 = document.getElementById("ans22")
+let card22 = document.getElementById("card22")
 function openPopup52() {
     popup5002.classList.add("open-pop52");
 }
@@ -387,9 +412,13 @@ function displayAns22() {
 function removeAns22() {
     ans22.classList.remove("answer22");
 }
+function removeCard22() {
+    card22.classList.add("ans")
+}
 //==================================================
 let popup5003 = document.getElementById("popup53")
 let ans23 = document.getElementById("ans23")
+let card23 = document.getElementById("card23")
 function openPopup53() {
     popup5003.classList.add("open-pop53");
 }
@@ -402,9 +431,13 @@ function displayAns23() {
 function removeAns23() {
     ans23.classList.remove("answer23");
 }
+function removeCard23() {
+    card23.classList.add("ans")
+}
 //==================================================
 let popup5004 = document.getElementById("popup54")
 let ans24 = document.getElementById("ans24")
+let card24 = document.getElementById("card24")
 function openPopup54() {
     popup5004.classList.add("open-pop54");
 }
@@ -417,9 +450,13 @@ function displayAns24() {
 function removeAns24() {
     ans24.classList.remove("answer24");
 }
+function removeCard24() {
+    card24.classList.add("ans")
+}
 //==================================================
 let popup5005 = document.getElementById("popup55")
 let ans25 = document.getElementById("ans25")
+let card25 = document.getElementById("card25")
 function openPopup55() {
     popup5005.classList.add("open-pop55");
 }
@@ -431,6 +468,9 @@ function displayAns25() {
 }
 function removeAns25() {
     ans25.classList.remove("answer25");
+}
+function removeCard25() {
+    card25.classList.add("ans")
 }
 //==================================================
 let score1 = 0
