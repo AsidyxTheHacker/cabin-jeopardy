@@ -560,4 +560,3 @@ function scoreUpdate(scorename, pointvalue) {
       } //write whatever error you want to give in {}
   }
   }
-//==================================================
